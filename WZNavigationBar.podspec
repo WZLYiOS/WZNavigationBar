@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WZNavigationBar'
   s.version          = '0.2.0'
-  s.summary          = 'A custom navigation bar of UIViewController'
+  s.summary          = 'A custom navigation bar of UIViewController '
   s.homepage         = 'https://github.com/WZLYiOS/WZNavigationBar'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'LiuSky' => '327847390@qq.com' }
