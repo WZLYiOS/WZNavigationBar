@@ -1,0 +1,6 @@
+framework module Pods_WZNavigationBar_Example {
+  umbrella header "Pods-WZNavigationBar_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

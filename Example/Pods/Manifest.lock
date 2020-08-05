@@ -1,0 +1,18 @@
+PODS:
+  - WZNavigationBar (0.1.0):
+    - WZNavigationBar/Source (= 0.1.0)
+  - WZNavigationBar/Source (0.1.0)
+
+DEPENDENCIES:
+  - WZNavigationBar (from `../`)
+
+EXTERNAL SOURCES:
+  WZNavigationBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WZNavigationBar: 11d257adfbe00f8d290ad0d746b2aa2fd4e51f9c
+
+PODFILE CHECKSUM: 2ffd3d0458733a62a9a622b037bb489487dc3613
+
+COCOAPODS: 1.8.4

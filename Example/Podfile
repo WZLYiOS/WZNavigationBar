@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'WZNavigationBar_Example' do
+  pod 'WZNavigationBar', :path => '../'
+
+end

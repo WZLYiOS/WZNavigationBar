@@ -1,0 +1,11 @@
+framework module WZNavigationBar {
+  umbrella header "WZNavigationBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module WZNavigationBar.Swift {
+    header "WZNavigationBar-Swift.h"
+    requires objc
+}
