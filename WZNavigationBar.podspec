@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'WZNavigationBar'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'A custom navigation bar of UIViewController '
   s.homepage         = 'https://github.com/WZLYiOS/WZNavigationBar'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
   end
 
 
-  s.subspec 'Binary' do |ss|
-    ss.vendored_frameworks = "Carthage/Build/iOS/Static/WZNavigationBar.framework"
-    ss.resource_bundles    = { 'WZNavigationBar' => ['WZNavigationBar/Assets/*.xcassets'] }
-  end
+#  s.subspec 'Binary' do |ss|
+#    ss.vendored_frameworks = "Carthage/Build/iOS/Static/WZNavigationBar.framework"
+#    ss.resource_bundles    = { 'WZNavigationBar' => ['WZNavigationBar/Assets/*.xcassets'] }
+#  end
 end
